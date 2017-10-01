@@ -1,8 +1,13 @@
 #include <iostream>
+#include <string>
 
 int main()
 {
-    std::cout << "hello hit" << std::endl;
+    std::string name;
+    std::cout << "What is your name?" << std::endl;
+    std::cin >> name;
+    std::cout << "hello " << name << "!"  << std::endl;
+
     return 0;
 }
 
